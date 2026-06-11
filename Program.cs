@@ -1,14 +1,8 @@
 ﻿// Escreva a mensagem "imforme um numero: "
-Console.Write("Informe um numero: ");
+Console.WriteLIne("0,1,2,3,4,5: ");
+
 // Crie a variavel variavelQueSalvaUmNumero, 
 // leia o que o usuario digitar 
 // e transformar o valor lido de texto para interiro(int.Parse)
 int variavelQueSalvaUmNumero = int.Parse(Console.ReadLine());
 
-// verificar se o valor lido de variavelQueSakvaUmNumero é par
-if (variavelQueSalvaUmNumero % 2 == 0 ) {
-    Console.WriteLine($"Número {variavelQueSalvaUmNumero} é par");
-}
-else {
-    Console.WriteLine($"Número {variavelQueSalvaUmNumero} é ímpar");
-}
